@@ -105,10 +105,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Default binding - this most common, when called it refers directly to the function it was called in. So if a function simply logs "this" it will refer to the window object.
+  2. Implicit Binding - this will refer to what comes before the dot. So for Obj.prop, it will refer to the object, not the property. 
+  3. Explicit - coercing a function to use a specific object and/or property.
+  4. New Binding - When we create a new object using a constructor function, the this keyword is defined as the newly created object and its properties.
 */
 
 
